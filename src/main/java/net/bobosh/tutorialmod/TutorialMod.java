@@ -1,6 +1,7 @@
 package net.bobosh.tutorialmod;
 
 import net.bobosh.tutorialmod.block.ModBlocks;
+import net.bobosh.tutorialmod.item.ModItemGroups;
 import net.bobosh.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,8 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
