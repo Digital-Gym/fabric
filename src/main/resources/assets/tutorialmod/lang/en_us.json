@@ -2,10 +2,13 @@
   "item.tutorialmod.pink_garnet": "Pink Garnet",
   "item.tutorialmod.raw_pink_garnet": "Raw Pink Garnet",
 
+  "item.tutorialmod.chisel": "Bobosh's chisel",
+
   "block.tutorialmod.pink_garnet_block": "Pink Garnet Block",
   "block.tutorialmod.raw_pink_garnet_block": "Raw Pink Garnet Block",
   "block.tutorialmod.pink_garnet_ore": "Pink garnet Ore",
   "block.tutorialmod.pink_garnet_deepslate_ore": "Pink garnet deepslate ore",
+
 
   "itemgroup.tutorialmod.pink_garnet_items": "Modded items"
 }

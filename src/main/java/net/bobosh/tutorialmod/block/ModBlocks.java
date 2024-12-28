@@ -1,13 +1,11 @@
 package net.bobosh.tutorialmod.block;
 
 import net.bobosh.tutorialmod.TutorialMod;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -47,10 +45,5 @@ public class ModBlocks {
 
     public static void registerModBlocks(){
         TutorialMod.LOGGER.info("Adding blocks...");
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.PINK_GARNET_BLOCK);
-            entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
-        });
     }
 }
