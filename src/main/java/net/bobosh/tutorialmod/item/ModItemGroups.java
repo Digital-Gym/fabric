@@ -1,6 +1,7 @@
 package net.bobosh.tutorialmod.item;
 
 import net.bobosh.tutorialmod.TutorialMod;
+import net.bobosh.tutorialmod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -18,13 +19,16 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.RAW_PINK_GARNET);
+
+                        entries.add(ModBlocks.PINK_GARNET_BLOCK);
+                        entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
+                        entries.add(ModBlocks.PINK_GARNET_ORE);
+                        entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
                     })
                     .build()
                     );
 
     public static void registerItemGroups(){
         TutorialMod.LOGGER.info("Adding item groups...");
-
-
     }
 }
